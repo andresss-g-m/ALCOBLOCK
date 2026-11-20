@@ -1,0 +1,317 @@
+
+/* CONFIGURACIÓN GENERAL */
+
+body {
+    background-color: #f4f6f9;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+
+/* BARRA LATERAL */
+
+.sidebar {
+    width: 260px;
+    min-height: 100vh;
+    background-color: #172b4d;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px 15px;
+}
+
+.sidebar .logo {
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.sidebar .logo img {
+    max-width: 180px;
+}
+
+.sidebar .menu-item {
+    display: block;
+    padding: 12px 15px;
+    color: #dce3ed;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    transition: 0.3s;
+}
+
+.sidebar .menu-item i {
+    width: 25px;
+}
+
+.sidebar .menu-item:hover,
+.sidebar .menu-item.active {
+    background-color: #0d6efd;
+    color: white;
+}
+
+
+/* CONTENIDO PRINCIPAL */
+
+.main-content {
+    margin-left: 260px;
+    padding: 25px;
+}
+
+
+/* BARRA SUPERIOR */
+
+.topbar {
+    background-color: white;
+    padding: 18px 22px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    gap: 15px;
+}
+
+
+/* TARJETAS DE ESTADÍSTICAS */
+
+.stat-card {
+    border: none;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    height: 100%;
+}
+
+.stat-card i {
+    font-size: 30px;
+    color: #0d6efd;
+}
+
+.stat-card h3 {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.stat-card p {
+    color: #6c757d;
+    margin-bottom: 0;
+}
+
+.stat-card.danger i {
+    color: #dc3545;
+}
+
+
+/* MÓDULO PRINCIPAL */
+
+.module {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    margin-top: 25px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+
+/* BOTONES DE ICONOS */
+
+.icon-btn {
+    border: none;
+    background-color: #f1f3f5;
+    padding: 10px 13px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+/* USUARIO */
+
+.user {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
+/* DISEÑO RESPONSIVE */
+
+@media (max-width: 768px) {
+
+    .sidebar {
+        width: 100%;
+        min-height: auto;
+        position: relative;
+    }
+
+    .main-content {
+        margin-left: 0;
+        padding: 15px;
+    }
+
+    .topbar {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .topbar-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        align-items: center;
+    }
+
+}
+
+
+/* CONTENEDOR */
+
+.login-container {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    max-width: 100%;
+}
+
+
+/* TÍTULO */
+
+.login-container h2 {
+    text-align: center;
+    color: var(--primary);
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+
+/* CAMPOS */
+
+.input-group-custom {
+    position: relative;
+}
+
+.input-icon {
+    position: relative;
+}
+
+.input-icon i {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888;
+    z-index: 2;
+}
+
+.input-icon input,
+.input-icon select {
+    padding: 10px 10px 10px 35px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.input-icon select {
+    background-color: white;
+    cursor: pointer;
+}
+
+
+/* BOTONES */
+
+.btn-primary {
+    background: var(--primary);
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.btn-primary:hover {
+    background: #003b63;
+}
+
+
+/* CAMBIAR FORMULARIO */
+
+.toggle-link {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.toggle-link span {
+    color: var(--primary);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.toggle-link span:hover {
+    text-decoration: underline;
+}
+
+
+/* MENSAJES */
+
+#message {
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 400px) {
+    .login-container {
+        padding: 20px;
+    }
+}
+
+
+/* CONTENEDOR */
+
+.logout-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    max-width: 450px;
+    width: 100%;
+}
+
+
+/* ICONO */
+
+.logout-icon {
+    font-size: 45px;
+    color: #005187;
+    margin-bottom: 20px;
+}
+
+
+/* TÍTULO */
+
+.logout-container h2 {
+    color: #005187;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+
+/* ENLACE */
+
+.logout-container a {
+    color: #005187;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logout-container a:hover {
+    text-decoration: underline;
+}
