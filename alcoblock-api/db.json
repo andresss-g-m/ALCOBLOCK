@@ -1,12 +1,217 @@
 {
-  "users": [],
+  "users": [], 
   "rol": [],
   "persona": [],
   "empresa": [],
-  "conductor": [],
-  "documento_conductor": [],
-  "licencia": [],
-  "vehiculo": [],
+  "conductor": [
+      {
+        "id_conductor": 1,
+        "id_persona": 1,
+        "id_empresa": 1,
+        "id_sede": 1,
+        "estado": "activo"
+      },
+      {
+        "id_conductor": 2,
+        "id_persona": 2,
+        "id_empresa": 2,
+        "id_sede": 2,
+        "estado": "activo"
+      },
+      {
+        "id_conductor": 3,
+        "id_persona": 3,
+        "id_empresa": 3,
+        "id_sede": 3,
+        "estado": "activo"
+      },
+      {
+        "id_conductor": 4,
+        "id_persona": 4,
+        "id_empresa": 4,
+        "id_sede": 4,
+        "estado": "activo"
+      },
+      {
+        "id_conductor": 5,
+        "id_persona": 5,
+        "id_empresa": 5,
+        "id_sede": 5,
+        "estado": "activo"
+      }
+    ],
+    "documento_conductor": [
+      {
+        "id_documento_conductor": 1,
+        "id_conductor": 1,
+        "tipo_documento": "Cédula de ciudadanía",
+        "numero_identificacion": "1000000001",
+        "entidad_expedidora": "Registraduría Nacional",
+        "fecha_expedicion": "2020-01-10",
+        "fecha_vencimiento": null,
+        "archivo_url": "/documentos/conductor_1.pdf",
+        "estado": "vigente"
+      },
+      {
+        "id_documento_conductor": 2,
+        "id_conductor": 2,
+        "tipo_documento": "Cédula de ciudadanía",
+        "numero_identificacion": "1000000002",
+        "entidad_expedidora": "Registraduría Nacional",
+        "fecha_expedicion": "2020-01-10",
+        "fecha_vencimiento": null,
+        "archivo_url": "/documentos/conductor_2.pdf",
+        "estado": "vigente"
+      },
+      {
+        "id_documento_conductor": 3,
+        "id_conductor": 3,
+        "tipo_documento": "Cédula de ciudadanía",
+        "numero_identificacion": "1000000003",
+        "entidad_expedidora": "Registraduría Nacional",
+        "fecha_expedicion": "2020-01-10",
+        "fecha_vencimiento": null,
+        "archivo_url": "/documentos/conductor_3.pdf",
+        "estado": "vigente"
+      },
+      {
+        "id_documento_conductor": 4,
+        "id_conductor": 4,
+        "tipo_documento": "Cédula de ciudadanía",
+        "numero_identificacion": "1000000004",
+        "entidad_expedidora": "Registraduría Nacional",
+        "fecha_expedicion": "2020-01-10",
+        "fecha_vencimiento": null,
+        "archivo_url": "/documentos/conductor_4.pdf",
+        "estado": "vigente"
+      },
+      {
+        "id_documento_conductor": 5,
+        "id_conductor": 5,
+        "tipo_documento": "Cédula de ciudadanía",
+        "numero_identificacion": "1000000005",
+        "entidad_expedidora": "Registraduría Nacional",
+        "fecha_expedicion": "2020-01-10",
+        "fecha_vencimiento": null,
+        "archivo_url": "/documentos/conductor_5.pdf",
+        "estado": "vigente"
+      }
+    ],
+    "licencia": [
+      {
+        "id_licencia": 1,
+        "id_conductor": 1,
+        "numero_licencia": "LIC-DEMO-1001",
+        "categoria": "C2",
+        "fecha_expedicion": "2022-02-01",
+        "fecha_vencimiento": "2027-02-01",
+        "estado": "vigente"
+      },
+      {
+        "id_licencia": 2,
+        "id_conductor": 2,
+        "numero_licencia": "LIC-DEMO-1002",
+        "categoria": "C2",
+        "fecha_expedicion": "2022-02-01",
+        "fecha_vencimiento": "2027-02-01",
+        "estado": "vigente"
+      },
+      {
+        "id_licencia": 3,
+        "id_conductor": 3,
+        "numero_licencia": "LIC-DEMO-1003",
+        "categoria": "C2",
+        "fecha_expedicion": "2022-02-01",
+        "fecha_vencimiento": "2027-02-01",
+        "estado": "vigente"
+      },
+      {
+        "id_licencia": 4,
+        "id_conductor": 4,
+        "numero_licencia": "LIC-DEMO-1004",
+        "categoria": "C2",
+        "fecha_expedicion": "2022-02-01",
+        "fecha_vencimiento": "2027-02-01",
+        "estado": "vigente"
+      },
+      {
+        "id_licencia": 5,
+        "id_conductor": 5,
+        "numero_licencia": "LIC-DEMO-1005",
+        "categoria": "C2",
+        "fecha_expedicion": "2022-02-01",
+        "fecha_vencimiento": "2027-02-01",
+        "estado": "vigente"
+      }
+    ],
+    "vehiculo": [
+      {
+        "id_vehiculo": 1,
+        "id_empresa": 1,
+        "id_sede": 1,
+        "placa": "ABC01D",
+        "marca": "Chevrolet",
+        "modelo": "NPR",
+        "año": 2023,
+        "tipo_vehiculo": "Camión",
+        "numero_chasis": "CHASIS-DEMO-0001",
+        "color": "Blanco",
+        "estado": 1
+      },
+      {
+        "id_vehiculo": 2,
+        "id_empresa": 2,
+        "id_sede": 2,
+        "placa": "ABC02D",
+        "marca": "Chevrolet",
+        "modelo": "NPR",
+        "año": 2024,
+        "tipo_vehiculo": "Camión",
+        "numero_chasis": "CHASIS-DEMO-0002",
+        "color": "Blanco",
+        "estado": 1
+      },
+      {
+        "id_vehiculo": 3,
+        "id_empresa": 3,
+        "id_sede": 3,
+        "placa": "ABC03D",
+        "marca": "Chevrolet",
+        "modelo": "NPR",
+        "año": 2025,
+        "tipo_vehiculo": "Camión",
+        "numero_chasis": "CHASIS-DEMO-0003",
+        "color": "Blanco",
+        "estado": 1
+      },
+      {
+        "id_vehiculo": 4,
+        "id_empresa": 4,
+        "id_sede": 4,
+        "placa": "ABC04D",
+        "marca": "Chevrolet",
+        "modelo": "NPR",
+        "año": 2026,
+        "tipo_vehiculo": "Camión",
+        "numero_chasis": "CHASIS-DEMO-0004",
+        "color": "Blanco",
+        "estado": 1
+      },
+      {
+        "id_vehiculo": 5,
+        "id_empresa": 5,
+        "id_sede": 5,
+        "placa": "ABC05D",
+        "marca": "Chevrolet",
+        "modelo": "NPR",
+        "año": 2027,
+        "tipo_vehiculo": "Camión",
+        "numero_chasis": "CHASIS-DEMO-0005",
+        "color": "Blanco",
+        "estado": 1
+      }
+    ],
+
   "sede": [],
   "actualizacion_firmware": [],
   "asignacion": [],
