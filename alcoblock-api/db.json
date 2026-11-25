@@ -11,10 +11,141 @@
   "actualizacion_firmware": [],
   "asignacion": [],
   "dispositivo_alcoblock": [],
-  "mantenimiento_dispositivo": [],
-  "calibracion": [],
-  "componente": [],
-  "configuracion_limites": [],
+"mantenimiento_dispositivo": [
+    {
+      "id_mantenimiento": 1,
+      "id_dispositivo": 1,
+      "id_usuario_tecnico": 1,
+      "fecha_mantenim": "2026-10-11",
+      "diag_inic": "Revisión preventiva",
+      "acci_realiz": "Limpieza y verificación de conexiones",
+      "result_final": "Funcionamiento correcto",
+      "estado": "finalizado",
+      "prox_mantenimiento": "2027-04-11"
+    },
+    {
+      "id_mantenimiento": 2,
+      "id_dispositivo": 2,
+      "id_usuario_tecnico": 2,
+      "fecha_mantenim": "2026-10-12",
+      "diag_inic": "Revisión preventiva",
+      "acci_realiz": "Limpieza y verificación de conexiones",
+      "result_final": "Funcionamiento correcto",
+      "estado": "finalizado",
+      "prox_mantenimiento": "2027-04-12"
+    },
+    {
+      "id_mantenimiento": 3,
+      "id_dispositivo": 3,
+      "id_usuario_tecnico": 3,
+      "fecha_mantenim": "2026-10-13",
+      "diag_inic": "Revisión preventiva",
+      "acci_realiz": "Limpieza y verificación de conexiones",
+      "result_final": "Funcionamiento correcto",
+      "estado": "finalizado",
+      "prox_mantenimiento": "2027-04-13"
+    },
+    {
+      "id_mantenimiento": 4,
+      "id_dispositivo": 4,
+      "id_usuario_tecnico": 4,
+      "fecha_mantenim": "2026-10-14",
+      "diag_inic": "Revisión preventiva",
+      "acci_realiz": "Limpieza y verificación de conexiones",
+      "result_final": "Funcionamiento correcto",
+      "estado": "finalizado",
+      "prox_mantenimiento": "2027-04-14"
+    },
+    {
+      "id_mantenimiento": 5,
+      "id_dispositivo": 5,
+      "id_usuario_tecnico": 5,
+      "fecha_mantenim": "2026-10-15",
+      "diag_inic": "Revisión preventiva",
+      "acci_realiz": "Limpieza y verificación de conexiones",
+      "result_final": "Funcionamiento correcto",
+      "estado": "finalizado",
+      "prox_mantenimiento": "2027-04-15"
+    }
+],
+ "calibracion": [
+    {
+      "id_calibracion": 1,
+      "id_dispositivo": 1,
+      "fecha": "2026-10-11 10:00:00",
+      "period_inicial": "2026-10-01",
+      "period_final": "2027-03-31",
+      "result": "aprobada",
+      "observ": "Calibración de prueba satisfactoria"
+    },
+    {
+      "id_calibracion": 2,
+      "id_dispositivo": 2,
+      "fecha": "2026-10-12 10:00:00",
+      "period_inicial": "2026-10-01",
+      "period_final": "2027-03-31",
+      "result": "aprobada",
+      "observ": "Calibración de prueba satisfactoria"
+    },
+    {
+      "id_calibracion": 3,
+      "id_dispositivo": 3,
+      "fecha": "2026-10-13 10:00:00",
+      "period_inicial": "2026-10-01",
+      "period_final": "2027-03-31",
+      "result": "aprobada",
+      "observ": "Calibración de prueba satisfactoria"
+    },
+    {
+      "id_calibracion": 4,
+      "id_dispositivo": 4,
+      "fecha": "2026-10-14 10:00:00",
+      "period_inicial": "2026-10-01",
+      "period_final": "2027-03-31",
+      "result": "aprobada",
+      "observ": "Calibración de prueba satisfactoria"
+    },
+    {
+      "id_calibracion": 5,
+      "id_dispositivo": 5,
+      "fecha": "2026-10-15 10:00:00",
+      "period_inicial": "2026-10-01",
+      "period_final": "2027-03-31",
+      "result": "aprobada",
+      "observ": "Calibración de prueba satisfactoria"
+    }
+  ],
+   "componente": [
+    {
+      "id_componente": 1,
+      "id_mantenimiento": 1,
+      "nomb_compon": "Sensor mq3",
+      "tipo_compon": "Sensor",
+      "serial": "SEN-DEMO-0001",
+      "fecha_instalac": "2026-01-15",
+      "estado": "operativo"
+    },
+    {
+      "id_componente": 2,
+      "id_mantenimiento": 2,
+      "nomb_compon": "arduino",
+      "tipo_compon": "main",
+      "serial": "SEN-DEMO-0002",
+      "fecha_instalac": "2026-01-15",
+      "estado": "operativo"
+    }
+  ],
+   "configuracion_limites": [
+    {
+      "id_configuracion": 1,
+      "id_empresa": 1,
+      "limite_permit_mg_I": 0.1,
+      "limite_alert_mg_I": 0.1,
+      "fecha_inicio": "2026-01-01",
+      "fecha_fin": null,
+      "estado": "activo"
+    }
+  ],
   "prueba_alcoholemia": [],
   "alerta": [],
   "evento_dispositivo": [],
