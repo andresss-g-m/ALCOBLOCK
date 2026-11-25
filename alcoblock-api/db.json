@@ -212,14 +212,328 @@
       }
     ],
 
-  "sede": [],
-  "actualizacion_firmware": [],
-  "asignacion": [],
-  "dispositivo_alcoblock": [],
-  "mantenimiento_dispositivo": [],
-  "calibracion": [],
-  "componente": [],
-  "configuracion_limites": [],
+  "sede": [
+     {
+      "id_Sede": 1,
+      "Id_empresa": 1,
+      "Id_Persona_Responsable": 1,
+      "sed_Nombre_sede": "Sede Principal 1",
+      "sed_Ciudad": "Bogotá",
+      "sed_Direccion": "Carrera 21 # 10-20",
+      "sed_Telefono_Contacto": 601100001,
+      "sed_Estado": "activa"
+    },
+    {
+      "id_Sede": 2,
+      "Id_empresa": 2,
+      "Id_Persona_Responsable": 2,
+      "sed_Nombre_sede": "Sede Principal 2",
+      "sed_Ciudad": "Bogotá",
+      "sed_Direccion": "Carrera 22 # 10-20",
+      "sed_Telefono_Contacto": 601100002,
+      "sed_Estado": "activa"
+    },
+    {
+      "id_Sede": 3,
+      "Id_empresa": 3,
+      "Id_Persona_Responsable": 3,
+      "sed_Nombre_sede": "Sede Principal 3",
+      "sed_Ciudad": "Bogotá",
+      "sed_Direccion": "Carrera 23 # 10-20",
+      "sed_Telefono_Contacto": 601100003,
+      "sed_Estado": "activa"
+    },
+    {
+      "id_Sede": 4,
+      "Id_empresa": 4,
+      "Id_Persona_Responsable": 4,
+      "sed_Nombre_sede": "Sede Principal 4",
+      "sed_Ciudad": "Bogotá",
+      "sed_Direccion": "Carrera 24 # 10-20",
+      "sed_Telefono_Contacto": 601100004,
+      "sed_Estado": "activa"
+    },
+    {
+      "id_Sede": 5,
+      "Id_empresa": 5,
+      "Id_Persona_Responsable": 5,
+      "sed_Nombre_sede": "Sede Principal 5",
+      "sed_Ciudad": "Bogotá",
+      "sed_Direccion": "Carrera 25 # 10-20",
+      "sed_Telefono_Contacto": 601100005,
+      "sed_Estado": "activa"
+    }
+  ],
+  "actualizacion_firmware": [
+     {
+      "id_Actualizacion": 1,
+      "Id_Dispositivo": 1,
+      "Actir_Version_nueva": "1.1.0",
+      "Actir_version_ante": "1.0.0",
+      "Actir_Fech_actu": "2026-10-11",
+      "Actir_result": "exitosa",
+      "Actir_Observaciones": "Actualización de prueba"
+    },
+    {
+      "id_Actualizacion": 2,
+      "Id_Dispositivo": 2,
+      "Actir_Version_nueva": "1.2.0",
+      "Actir_version_ante": "1.0.0",
+      "Actir_Fech_actu": "2026-10-12",
+      "Actir_result": "exitosa",
+      "Actir_Observaciones": "Actualización de prueba"
+    },
+    {
+      "id_Actualizacion": 3,
+      "Id_Dispositivo": 3,
+      "Actir_Version_nueva": "1.3.0",
+      "Actir_version_ante": "1.0.0",
+      "Actir_Fech_actu": "2026-10-13",
+      "Actir_result": "exitosa",
+      "Actir_Observaciones": "Actualización de prueba"
+    },
+    {
+      "id_Actualizacion": 4,
+      "Id_Dispositivo": 4,
+      "Actir_Version_nueva": "1.4.0",
+      "Actir_version_ante": "1.0.0",
+      "Actir_Fech_actu": "2026-10-14",
+      "Actir_result": "exitosa",
+      "Actir_Observaciones": "Actualización de prueba"
+    },
+    {
+      "id_Actualizacion": 5,
+      "Id_Dispositivo": 5,
+      "Actir_Version_nueva": "1.5.0",
+      "Actir_version_ante": "1.0.0",
+      "Actir_Fech_actu": "2026-10-15",
+      "Actir_result": "exitosa",
+      "Actir_Observaciones": "Actualización de prueba"
+    }
+  ],
+  "asignacion": [
+     {
+      "id_Sede": 1,
+      "Id_Conductor": 1,
+      "Id_Vehiculo": 1,
+      "Asign_fecha_asignacion": "2026-01-10",
+      "Asign_fecha_finalizacion": null,
+      "Asing_estado": "activa"
+    },
+    {
+      "id_Sede": 2,
+      "Id_Conductor": 2,
+      "Id_Vehiculo": 2,
+      "Asign_fecha_asignacion": "2026-01-10",
+      "Asign_fecha_finalizacion": null,
+      "Asing_estado": "activa"
+    },
+    {
+      "id_Sede": 3,
+      "Id_Conductor": 3,
+      "Id_Vehiculo": 3,
+      "Asign_fecha_asignacion": "2026-01-10",
+      "Asign_fecha_finalizacion": null,
+      "Asing_estado": "activa"
+    },
+    {
+      "id_Sede": 4,
+      "Id_Conductor": 4,
+      "Id_Vehiculo": 4,
+      "Asign_fecha_asignacion": "2026-01-10",
+      "Asign_fecha_finalizacion": null,
+      "Asing_estado": "activa"
+    },
+    {
+      "id_Sede": 5,
+      "Id_Conductor": 5,
+      "Id_Vehiculo": 5,
+      "Asign_fecha_asignacion": "2026-01-10",
+      "Asign_fecha_finalizacion": null,
+      "Asing_estado": "activa"
+    }
+  ],
+  "dispositivo_alcoblock": [{
+      "Id_dispositivo_alc": 1,
+      "Id_Dispositivo": 1,
+      "Disal_señal": "estable",
+      "Disal_modelo": "ALC-100",
+      "Disal_Version_firm": "1.0.0",
+      "Disal_Fech_Instal": "2026-01-15",
+      "Disal_Estado": "activo"
+    },
+    {
+      "Id_dispositivo_alc": 2,
+      "Id_Dispositivo": 2,
+      "Disal_señal": "estable",
+      "Disal_modelo": "ALC-100",
+      "Disal_Version_firm": "1.0.0",
+      "Disal_Fech_Instal": "2026-01-15",
+      "Disal_Estado": "activo"
+    },
+    {
+      "Id_dispositivo_alc": 3,
+      "Id_Dispositivo": 3,
+      "Disal_señal": "estable",
+      "Disal_modelo": "ALC-100",
+      "Disal_Version_firm": "1.0.0",
+      "Disal_Fech_Instal": "2026-01-15",
+      "Disal_Estado": "activo"
+    },
+    {
+      "Id_dispositivo_alc": 4,
+      "Id_Dispositivo": 4,
+      "Disal_señal": "estable",
+      "Disal_modelo": "ALC-100",
+      "Disal_Version_firm": "1.0.0",
+      "Disal_Fech_Instal": "2026-01-15",
+      "Disal_Estado": "activo"
+    },
+    {
+      "Id_dispositivo_alc": 5,
+      "Id_Dispositivo": 5,
+      "Disal_señal": "estable",
+      "Disal_modelo": "ALC-100",
+      "Disal_Version_firm": "1.0.0",
+      "Disal_Fech_Instal": "2026-01-15",
+      "Disal_Estado": "activo"
+    }
+],
+"mantenimiento_dispositivo": [
+    {
+      "id_mantenimiento": 1,
+      "id_dispositivo": 1,
+      "id_usuario_tecnico": 1,
+      "fecha_mantenim": "2026-10-11",
+      "diag_inic": "Revisión preventiva",
+      "acci_realiz": "Limpieza y verificación de conexiones",
+      "result_final": "Funcionamiento correcto",
+      "estado": "finalizado",
+      "prox_mantenimiento": "2027-04-11"
+    },
+    {
+      "id_mantenimiento": 2,
+      "id_dispositivo": 2,
+      "id_usuario_tecnico": 2,
+      "fecha_mantenim": "2026-10-12",
+      "diag_inic": "Revisión preventiva",
+      "acci_realiz": "Limpieza y verificación de conexiones",
+      "result_final": "Funcionamiento correcto",
+      "estado": "finalizado",
+      "prox_mantenimiento": "2027-04-12"
+    },
+    {
+      "id_mantenimiento": 3,
+      "id_dispositivo": 3,
+      "id_usuario_tecnico": 3,
+      "fecha_mantenim": "2026-10-13",
+      "diag_inic": "Revisión preventiva",
+      "acci_realiz": "Limpieza y verificación de conexiones",
+      "result_final": "Funcionamiento correcto",
+      "estado": "finalizado",
+      "prox_mantenimiento": "2027-04-13"
+    },
+    {
+      "id_mantenimiento": 4,
+      "id_dispositivo": 4,
+      "id_usuario_tecnico": 4,
+      "fecha_mantenim": "2026-10-14",
+      "diag_inic": "Revisión preventiva",
+      "acci_realiz": "Limpieza y verificación de conexiones",
+      "result_final": "Funcionamiento correcto",
+      "estado": "finalizado",
+      "prox_mantenimiento": "2027-04-14"
+    },
+    {
+      "id_mantenimiento": 5,
+      "id_dispositivo": 5,
+      "id_usuario_tecnico": 5,
+      "fecha_mantenim": "2026-10-15",
+      "diag_inic": "Revisión preventiva",
+      "acci_realiz": "Limpieza y verificación de conexiones",
+      "result_final": "Funcionamiento correcto",
+      "estado": "finalizado",
+      "prox_mantenimiento": "2027-04-15"
+    }
+],
+ "calibracion": [
+    {
+      "id_calibracion": 1,
+      "id_dispositivo": 1,
+      "fecha": "2026-10-11 10:00:00",
+      "period_inicial": "2026-10-01",
+      "period_final": "2027-03-31",
+      "result": "aprobada",
+      "observ": "Calibración de prueba satisfactoria"
+    },
+    {
+      "id_calibracion": 2,
+      "id_dispositivo": 2,
+      "fecha": "2026-10-12 10:00:00",
+      "period_inicial": "2026-10-01",
+      "period_final": "2027-03-31",
+      "result": "aprobada",
+      "observ": "Calibración de prueba satisfactoria"
+    },
+    {
+      "id_calibracion": 3,
+      "id_dispositivo": 3,
+      "fecha": "2026-10-13 10:00:00",
+      "period_inicial": "2026-10-01",
+      "period_final": "2027-03-31",
+      "result": "aprobada",
+      "observ": "Calibración de prueba satisfactoria"
+    },
+    {
+      "id_calibracion": 4,
+      "id_dispositivo": 4,
+      "fecha": "2026-10-14 10:00:00",
+      "period_inicial": "2026-10-01",
+      "period_final": "2027-03-31",
+      "result": "aprobada",
+      "observ": "Calibración de prueba satisfactoria"
+    },
+    {
+      "id_calibracion": 5,
+      "id_dispositivo": 5,
+      "fecha": "2026-10-15 10:00:00",
+      "period_inicial": "2026-10-01",
+      "period_final": "2027-03-31",
+      "result": "aprobada",
+      "observ": "Calibración de prueba satisfactoria"
+    }
+  ],
+   "componente": [
+    {
+      "id_componente": 1,
+      "id_mantenimiento": 1,
+      "nomb_compon": "Sensor mq3",
+      "tipo_compon": "Sensor",
+      "serial": "SEN-DEMO-0001",
+      "fecha_instalac": "2026-01-15",
+      "estado": "operativo"
+    },
+    {
+      "id_componente": 2,
+      "id_mantenimiento": 2,
+      "nomb_compon": "arduino",
+      "tipo_compon": "main",
+      "serial": "SEN-DEMO-0002",
+      "fecha_instalac": "2026-01-15",
+      "estado": "operativo"
+    }
+  ],
+   "configuracion_limites": [
+    {
+      "id_configuracion": 1,
+      "id_empresa": 1,
+      "limite_permit_mg_I": 0.1,
+      "limite_alert_mg_I": 0.1,
+      "fecha_inicio": "2026-01-01",
+      "fecha_fin": null,
+      "estado": "activo"
+    }
+  ],
   "prueba_alcoholemia": [],
   "alerta": [],
   "evento_dispositivo": [],
