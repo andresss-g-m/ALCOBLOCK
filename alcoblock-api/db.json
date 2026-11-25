@@ -1,24 +1,218 @@
 {
-  "users": [],
-  "rol": [],
-  "persona": [],
-  "empresa": [],
-  "conductor": [],
+  
+  "users": [
+    {
+      "id_usuario": 1,
+      "id_persona": 1,
+      "id_empresa": 1,
+      "id_sede": 1,
+      "id_rol": 1,
+      "correo_login": "usuario1@demo-alcoblock.com",
+      "password_hash": "REEMPLAZAR_POR_HASH_BCRYPT",
+      "ult_acceso": "2026-11-21",
+      "usu_estado": "activo",
+      "bloqueado_hasta": null
+    },
+    {
+      "id_usuario": 2,
+      "id_persona": 2,
+      "id_empresa": 2,
+      "id_sede": 2,
+      "id_rol": 2,
+      "correo_login": "usuario2@demo-alcoblock.com",
+      "password_hash": "REEMPLAZAR_POR_HASH_BCRYPT",
+      "ult_acceso": "2026-11-22",
+      "usu_estado": "activo",
+      "bloqueado_hasta": null
+    },
+    {
+      "id_usuario": 3,
+      "id_persona": 3,
+      "id_empresa": 3,
+      "id_sede": 3,
+      "id_rol": 2,
+      "correo_login": "usuario3@demo-alcoblock.com",
+      "password_hash": "REEMPLAZAR_POR_HASH_BCRYPT",
+      "ult_acceso": "2026-11-23",
+      "usu_estado": "activo",
+      "bloqueado_hasta": null
+    },
+    {
+      "id_usuario": 4,
+      "id_persona": 4,
+      "id_empresa": 4,
+      "id_sede": 4,
+      "id_rol": 2,
+      "correo_login": "usuario4@demo-alcoblock.com",
+      "password_hash": "REEMPLAZAR_POR_HASH_BCRYPT",
+      "ult_acceso": "2026-11-24",
+      "usu_estado": "activo",
+      "bloqueado_hasta": null
+    },
+    {
+      "id_usuario": 5,
+      "id_persona": 5,
+      "id_empresa": 5,
+      "id_sede": 5,
+      "id_rol": 2,
+      "correo_login": "usuario5@demo-alcoblock.com",
+      "password_hash": "REEMPLAZAR_POR_HASH_BCRYPT",
+      "ult_acceso": "2026-11-25",
+      "usu_estado": "activo",
+      "bloqueado_hasta": null
+    }
+  ],
+  "rol": [
+    {
+      "id_rol": 1,
+      "rol_nombre_rol": "Administrador",
+      "rol_descripcion": "Acceso administrativo al sistema."
+    },
+    {
+      "id_rol": 2,
+      "rol_nombre_rol": "Usuario",
+      "rol_descripcion": "Acceso estándar al sistema."
+    }
+  ],
+  "persona": [
+    {
+      "id_persona": 1,
+      "num_docum": 1000000001,
+      "tipo_docum": "CC",
+      "nomb": "Carlos",
+      "apellidos": "Ramírez",
+      "fecha_nacimiento": "1991-05-11",
+      "correo": "persona1@demo-alcoblock.com",
+      "telefono": 3000000001,
+      "direccion": "Calle 11 # 20-1"
+    },
+    {
+      "id_persona": 2,
+      "num_docum": 1000000002,
+      "tipo_docum": "CC",
+      "nomb": "Laura",
+      "apellidos": "Gómez",
+      "fecha_nacimiento": "1992-05-12",
+      "correo": "persona2@demo-alcoblock.com",
+      "telefono": 3000000002,
+      "direccion": "Calle 12 # 20-2"
+    },
+    {
+      "id_persona": 3,
+      "num_docum": 1000000003,
+      "tipo_docum": "CC",
+      "nomb": "Andrés",
+      "apellidos": "Torres",
+      "fecha_nacimiento": "1993-05-13",
+      "correo": "persona3@demo-alcoblock.com",
+      "telefono": 3000000003,
+      "direccion": "Calle 13 # 20-3"
+    },
+    {
+      "id_persona": 4,
+      "num_docum": 1000000004,
+      "tipo_docum": "CC",
+      "nomb": "Mariana",
+      "apellidos": "López",
+      "fecha_nacimiento": "1994-05-14",
+      "correo": "persona4@demo-alcoblock.com",
+      "telefono": 3000000004,
+      "direccion": "Calle 14 # 20-4"
+    },
+    {
+      "id_persona": 5,
+      "num_docum": 1000000005,
+      "tipo_docum": "CC",
+      "nomb": "David",
+      "apellidos": "Castro",
+      "fecha_nacimiento": "1995-05-15",
+      "correo": "persona5@demo-alcoblock.com",
+      "telefono": 3000000005,
+      "direccion": "Calle 15 # 20-5"
+    }
+  ],
+  "empresa": [
+    {
+      "id_empresa": 1,
+      "emp_id_person_represent": 1,
+      "emp_nit": "900123451-1",
+      "emp_razon_social": "Empresa de Transporte Demo 1 S.A.S.",
+      "emp_nombre_comercial": "TransDemo 1",
+      "emp_correo": "contacto1@transdemo.com",
+      "emp_telefono": 601000001,
+      "emp_dirrecion": "Carrera 11 # 15-20, Bogotá",
+      "emp_fecha_registro": "2026-01-15",
+      "emp_estado": "activo"
+    },
+    {
+      "id_empresa": 2,
+      "emp_id_person_represent": 2,
+      "emp_nit": "900123452-2",
+      "emp_razon_social": "Empresa de Transporte Demo 2 S.A.S.",
+      "emp_nombre_comercial": "TransDemo 2",
+      "emp_correo": "contacto2@transdemo.com",
+      "emp_telefono": 601000002,
+      "emp_dirrecion": "Carrera 12 # 15-20, Bogotá",
+      "emp_fecha_registro": "2026-01-15",
+      "emp_estado": "activo"
+    },
+    {
+      "id_empresa": 3,
+      "emp_id_person_represent": 3,
+      "emp_nit": "900123453-3",
+      "emp_razon_social": "Empresa de Transporte Demo 3 S.A.S.",
+      "emp_nombre_comercial": "TransDemo 3",
+      "emp_correo": "contacto3@transdemo.com",
+      "emp_telefono": 601000003,
+      "emp_dirrecion": "Carrera 13 # 15-20, Bogotá",
+      "emp_fecha_registro": "2026-01-15",
+      "emp_estado": "activo"
+    },
+    {
+      "id_empresa": 4,
+      "emp_id_person_represent": 4,
+      "emp_nit": "900123454-4",
+      "emp_razon_social": "Empresa de Transporte Demo 4 S.A.S.",
+      "emp_nombre_comercial": "TransDemo 4",
+      "emp_correo": "contacto4@transdemo.com",
+      "emp_telefono": 601000004,
+      "emp_dirrecion": "Carrera 14 # 15-20, Bogotá",
+      "emp_fecha_registro": "2026-01-15",
+      "emp_estado": "activo"
+    },
+    {
+      "id_empresa": 5,
+      "emp_id_person_represent": 5,
+      "emp_nit": "900123455-5",
+      "emp_razon_social": "Empresa de Transporte Demo 5 S.A.S.",
+      "emp_nombre_comercial": "TransDemo 5",
+      "emp_correo": "contacto5@transdemo.com",
+      "emp_telefono": 601000005,
+      "emp_dirrecion": "Carrera 15 # 15-20, Bogotá",
+      "emp_fecha_registro": "2026-01-15",
+      "emp_estado": "activo"
+    }
+  ],
+  "conductor": [],                
   "documento_conductor": [],
   "licencia": [],
-  "vehiculo": [],
-  "sede": [],
+  "vehiculo": [],                  
+  "sede": [],                 
   "actualizacion_firmware": [],
   "asignacion": [],
-  "dispositivo_alcoblock": [],
-  "mantenimiento_dispositivo": [],
+  "dispositivo_alcoblock": [],        
+  "mantenimiento_dispositivo": [],    
   "calibracion": [],
   "componente": [],
-  "configuracion_limites": [],
-  "prueba_alcoholemia": [],
+  "configuracion_limites": [],      
+  "prueba_alcoholemia": [],         
   "alerta": [],
-  "evento_dispositivo": [],
+  "evento_dispositivo": [],         
   "reintento_prueba": [],
-  "bloqueo": [],
-  "reporte": []
+  "bloqueo": [],                  
+  "reporte": []           
+
 }
+
+
+
