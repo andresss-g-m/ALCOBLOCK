@@ -1,6 +1,5 @@
 {
-<<<<<<< HEAD
-  
+ 
   "users": [
     {
       "id_usuario": 1,
@@ -194,24 +193,7 @@
       "emp_estado": "activo"
     }
   ],
-  "conductor": [],                
-  "documento_conductor": [],
-  "licencia": [],
-  "vehiculo": [],                  
-  "sede": [],                 
-  "actualizacion_firmware": [],
-  "asignacion": [],
-  "dispositivo_alcoblock": [],        
-  "mantenimiento_dispositivo": [],    
-  "calibracion": [],
-  "componente": [],
-  "configuracion_limites": [],      
-  "prueba_alcoholemia": [],         
-=======
-  "users": [], 
-  "rol": [],
-  "persona": [],
-  "empresa": [],
+
   "conductor": [
       {
         "id_conductor": 1,
@@ -744,7 +726,6 @@
     }
   ],
   "prueba_alcoholemia": [],
->>>>>>> 67b0ca8926a9c8b1d1eeeb94650968f437814e2e
   "alerta": [],
   "evento_dispositivo": [],         
   "reintento_prueba": [],
