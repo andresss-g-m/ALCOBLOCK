@@ -725,14 +725,303 @@
       "estado": "activo"
     }
   ],
-  "prueba_alcoholemia": [],
-  "alerta": [],
-  "evento_dispositivo": [],         
-  "reintento_prueba": [],
-  "bloqueo": [],                  
-  "reporte": []           
-
+  "prueba_alcoholemia": [
+    {
+      "id_prueba": 1,
+      "id_dispositivo": 1,
+      "id_vehiculo": 1,
+      "id_conductor": 1,
+      "fecha_hora": "2026-11-11 07:30:00",
+      "resultado": "Negativo",
+      "nivel_alcohol_mg_l": 0.0,
+      "ubicacion": "Bogotá, Colombia",
+      "accion_tomada": "Habilito",
+      "observaciones": "Prueba de demostración"
+    },
+    {
+      "id_prueba": 2,
+      "id_dispositivo": 2,
+      "id_vehiculo": 2,
+      "id_conductor": 2,
+      "fecha_hora": "2026-11-12 07:30:00",
+      "resultado": "Positivo",
+      "nivel_alcohol_mg_l": 0.25,
+      "ubicacion": "Bogotá, Colombia",
+      "accion_tomada": "Bloqueo",
+      "observaciones": "Prueba de demostración"
+    },
+    {
+      "id_prueba": 3,
+      "id_dispositivo": 3,
+      "id_vehiculo": 3,
+      "id_conductor": 3,
+      "fecha_hora": "2026-11-13 07:30:00",
+      "resultado": "Negativo",
+      "nivel_alcohol_mg_l": 0.0,
+      "ubicacion": "Bogotá, Colombia",
+      "accion_tomada": "Habilito",
+      "observaciones": "Prueba de demostración"
+    },
+    {
+      "id_prueba": 4,
+      "id_dispositivo": 4,
+      "id_vehiculo": 4,
+      "id_conductor": 4,
+      "fecha_hora": "2026-11-14 07:30:00",
+      "resultado": "Positivo",
+      "nivel_alcohol_mg_l": 0.25,
+      "ubicacion": "Bogotá, Colombia",
+      "accion_tomada": "Bloqueo",
+      "observaciones": "Prueba de demostración"
+    },
+    {
+      "id_prueba": 5,
+      "id_dispositivo": 5,
+      "id_vehiculo": 5,
+      "id_conductor": 5,
+      "fecha_hora": "2026-11-15 07:30:00",
+      "resultado": "Negativo",
+      "nivel_alcohol_mg_l": 0.0,
+      "ubicacion": "Bogotá, Colombia",
+      "accion_tomada": "Habilito",
+      "observaciones": "Prueba de demostración"
+    }
+  ],
+  "alerta": [
+    {
+      "id_alerta": 1,
+      "id_prueba": 1,
+      "id_conductor": 1,
+      "tipo_alerta": "Prueba registrada",
+      "mensaje": "Prueba realizada correctamente.",
+      "fecha_hora": "2026-11-11 07:31:00",
+      "estado": "cerrada"
+    },
+    {
+      "id_alerta": 2,
+      "id_prueba": 2,
+      "id_conductor": 2,
+      "tipo_alerta": "Nivel elevado",
+      "mensaje": "Se detectó nivel superior al límite permitido.",
+      "fecha_hora": "2026-11-12 07:31:00",
+      "estado": "activa"
+    },
+    {
+      "id_alerta": 3,
+      "id_prueba": 3,
+      "id_conductor": 3,
+      "tipo_alerta": "Prueba registrada",
+      "mensaje": "Prueba realizada correctamente.",
+      "fecha_hora": "2026-11-13 07:31:00",
+      "estado": "cerrada"
+    },
+    {
+      "id_alerta": 4,
+      "id_prueba": 4,
+      "id_conductor": 4,
+      "tipo_alerta": "Nivel elevado",
+      "mensaje": "Se detectó nivel superior al límite permitido.",
+      "fecha_hora": "2026-11-14 07:31:00",
+      "estado": "activa"
+    },
+    {
+      "id_alerta": 5,
+      "id_prueba": 5,
+      "id_conductor": 5,
+      "tipo_alerta": "Prueba registrada",
+      "mensaje": "Prueba realizada correctamente.",
+      "fecha_hora": "2026-11-15 07:31:00",
+      "estado": "cerrada"
+    }
+  ],
+  "evento_dispositivo": [
+    {
+      "id_historial": 1,
+      "id_dispositivo": 1,
+      "tipo_evento": "Autodiagnóstico",
+      "descripcion": "Evento de verificación del dispositivo.",
+      "valor": "OK",
+      "fecha_hora": "2026-11-11 07:00:00",
+      "estado": "registrado"
+    },
+    {
+      "id_historial": 2,
+      "id_dispositivo": 2,
+      "tipo_evento": "Autodiagnóstico",
+      "descripcion": "Evento de verificación del dispositivo.",
+      "valor": "OK",
+      "fecha_hora": "2026-11-12 07:00:00",
+      "estado": "registrado"
+    },
+    {
+      "id_historial": 3,
+      "id_dispositivo": 3,
+      "tipo_evento": "Autodiagnóstico",
+      "descripcion": "Evento de verificación del dispositivo.",
+      "valor": "OK",
+      "fecha_hora": "2026-11-13 07:00:00",
+      "estado": "registrado"
+    },
+    {
+      "id_historial": 4,
+      "id_dispositivo": 4,
+      "tipo_evento": "Autodiagnóstico",
+      "descripcion": "Evento de verificación del dispositivo.",
+      "valor": "OK",
+      "fecha_hora": "2026-11-14 07:00:00",
+      "estado": "registrado"
+    },
+    {
+      "id_historial": 5,
+      "id_dispositivo": 5,
+      "tipo_evento": "Autodiagnóstico",
+      "descripcion": "Evento de verificación del dispositivo.",
+      "valor": "OK",
+      "fecha_hora": "2026-11-15 07:00:00",
+      "estado": "registrado"
+    }
+  ],
+  "reintento_prueba": [
+    {
+      "id_reintento": 1,
+      "id_prueba": 1,
+      "numero_reintento": 1,
+      "fecha_hora": "2026-11-11 07:32:00",
+      "resultado": "Negativo",
+      "nuvel_alcohol_mg_l": 0.0,
+      "estado": "completado"
+    },
+    {
+      "id_reintento": 2,
+      "id_prueba": 2,
+      "numero_reintento": 1,
+      "fecha_hora": "2026-11-12 07:32:00",
+      "resultado": "Negativo",
+      "nuvel_alcohol_mg_l": 0.0,
+      "estado": "completado"
+    },
+    {
+      "id_reintento": 3,
+      "id_prueba": 3,
+      "numero_reintento": 1,
+      "fecha_hora": "2026-11-13 07:32:00",
+      "resultado": "Negativo",
+      "nuvel_alcohol_mg_l": 0.0,
+      "estado": "completado"
+    },
+    {
+      "id_reintento": 4,
+      "id_prueba": 4,
+      "numero_reintento": 1,
+      "fecha_hora": "2026-11-14 07:32:00",
+      "resultado": "Negativo",
+      "nuvel_alcohol_mg_l": 0.0,
+      "estado": "completado"
+    },
+    {
+      "id_reintento": 5,
+      "id_prueba": 5,
+      "numero_reintento": 1,
+      "fecha_hora": "2026-11-15 07:32:00",
+      "resultado": "Negativo",
+      "nuvel_alcohol_mg_l": 0.0,
+      "estado": "completado"
+    }
+  ],
+  "bloqueo": [
+    {
+      "id_bloqueo": 1,
+      "id_prueba": 1,
+      "id_conductor": 1,
+      "fecha_hora_inicio": "2026-11-11 07:30:00",
+      "fecha_hora_fin": null,
+      "motivo": "Nivel de alcohol superior al límite permitido",
+      "estado": "no_aplica"
+    },
+    {
+      "id_bloqueo": 2,
+      "id_prueba": 2,
+      "id_conductor": 2,
+      "fecha_hora_inicio": "2026-11-12 07:30:00",
+      "fecha_hora_fin": "2026-11-12 08:00:00",
+      "motivo": "Nivel de alcohol superior al límite permitido",
+      "estado": "activo"
+    },
+    {
+      "id_bloqueo": 3,
+      "id_prueba": 3,
+      "id_conductor": 3,
+      "fecha_hora_inicio": "2026-11-13 07:30:00",
+      "fecha_hora_fin": null,
+      "motivo": "Nivel de alcohol superior al límite permitido",
+      "estado": "no_aplica"
+    },
+    {
+      "id_bloqueo": 4,
+      "id_prueba": 4,
+      "id_conductor": 4,
+      "fecha_hora_inicio": "2026-11-14 07:30:00",
+      "fecha_hora_fin": "2026-11-14 08:00:00",
+      "motivo": "Nivel de alcohol superior al límite permitido",
+      "estado": "activo"
+    },
+    {
+      "id_bloqueo": 5,
+      "id_prueba": 5,
+      "id_conductor": 5,
+      "fecha_hora_inicio": "2026-11-15 07:30:00",
+      "fecha_hora_fin": null,
+      "motivo": "Nivel de alcohol superior al límite permitido",
+      "estado": "no_aplica"
+    }
+  ],
+  "reporte": [
+    {
+      "id_reporte": 1,
+      "id_empresa": 1,
+      "id_usuario": 1,
+      "tipo_reporte": "Pruebas de alcoholemia",
+      "parametro": "Periodo: noviembre 2026",
+      "fecha_generacion": "2026-11-16 12:00:00",
+      "archivo_url": "/reportes/reporte_1.pdf"
+    },
+    {
+      "id_reporte": 2,
+      "id_empresa": 2,
+      "id_usuario": 2,
+      "tipo_reporte": "Pruebas de alcoholemia",
+      "parametro": "Periodo: noviembre 2026",
+      "fecha_generacion": "2026-11-17 12:00:00",
+      "archivo_url": "/reportes/reporte_2.pdf"
+    },
+    {
+      "id_reporte": 3,
+      "id_empresa": 3,
+      "id_usuario": 3,
+      "tipo_reporte": "Pruebas de alcoholemia",
+      "parametro": "Periodo: noviembre 2026",
+      "fecha_generacion": "2026-11-18 12:00:00",
+      "archivo_url": "/reportes/reporte_3.pdf"
+    },
+    {
+      "id_reporte": 4,
+      "id_empresa": 4,
+      "id_usuario": 4,
+      "tipo_reporte": "Pruebas de alcoholemia",
+      "parametro": "Periodo: noviembre 2026",
+      "fecha_generacion": "2026-11-19 12:00:00",
+      "archivo_url": "/reportes/reporte_4.pdf"
+    },
+    {
+      "id_reporte": 5,
+      "id_empresa": 5,
+      "id_usuario": 5,
+      "tipo_reporte": "Pruebas de alcoholemia",
+      "parametro": "Periodo: noviembre 2026",
+      "fecha_generacion": "2026-11-20 12:00:00",
+      "archivo_url": "/reportes/reporte_5.pdf"
+    }
+  ]
 }
-
 
 
