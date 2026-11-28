@@ -8,11 +8,10 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Conductor/>} />
-        <Route path="/" element={<Admin />} />
+        <Route path="/SAdmin" element={<Admin />} />
       </Routes>
     </BrowserRouter>
   );
 }
 
 export default App;
-
